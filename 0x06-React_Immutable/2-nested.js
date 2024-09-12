@@ -1,9 +1,23 @@
-import { Map, fromJS } from 'immutable';
+function myFunction() {
+  console.log("Hello, World!");
+}
 
-export function getImmutableObject(obj) {
-  return fromJS(obj);
-}import { Map, fromJS } from 'immutable';
+if (typeof myFunction === 'function') {
+  console.log("myFunction is defined.");
+  myFunction();
+} else {
+  console.log("myFunction is not defined.");
+}
 
-export function getImmutableObject(obj) {
-  return fromJS(obj);
+if (myFunction instanceof Function) {
+  console.log("myFunction is a function.");
+  myFunction();
+} else {
+  console.log("myFunction is not a function.");
+}
+
+try {
+  myFunction();
+} catch (e) {
+  console.log("myFunction is not defined.");
 }
