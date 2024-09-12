@@ -1,12 +1,9 @@
-import { fromJS } from 'immutable';
+import { Map, fromJS } from 'immutable';
 
-const getImmutableObject = (object) => {
-  return fromJS(object, (key, value) => {
-    if (typeof value === 'object') {
-      return getImmutableObject(value);
-    }
-    return value;
-  });
-};
+export function getImmutableObject(obj) {
+  return fromJS(obj);
+}import { Map, fromJS } from 'immutable';
 
-export default getImmutableObject;
+export function getImmutableObject(obj) {
+  return fromJS(obj);
+}
