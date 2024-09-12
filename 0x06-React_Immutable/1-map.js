@@ -1,3 +1,9 @@
-const obj = { a: 1, b: 2, c: 3 };
+const obj = {
+  fear: true,
+  smell: -1033575916.9145899,
+  wall: false,
+  thing: -914767132
+};
+
 const immutableObj = getImmutableObject(obj);
-console.log(immutableObj); // Output: Map { "a": 1, "b": 2, "c": 3 }
+console.log(immutableObj); // Output: Map { "fear": true, "smell": -1033575916.9145899, "wall": false, "thing": -914767132 }
