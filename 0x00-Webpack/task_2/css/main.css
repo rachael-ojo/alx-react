@@ -1,0 +1,13 @@
+#logo {
+  width: 200px;
+  height: 200px;
+  background-image: url('C:\Users\Dell\Desktop\Image\holberton-logo.jpg');  /* Path to the image */
+  background-size: 200px 200px;  /* Resize the background to fit the element */
+  background-repeat: no-repeat;  /* Prevents image repetition */
+}
+
+#count {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: bold;
+}
