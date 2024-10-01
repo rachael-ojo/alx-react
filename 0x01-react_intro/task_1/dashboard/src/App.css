@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  padding: 10px;
+}
+
+.App-header img {
+  width: 200px;
+  height: 200px;
+  background-image: url('C:\Users\Dell\Desktop\Image\holberton-logo.jpg');
+  background-repeat: no-repeat;
+  display: block;
+  flex: 0 0 auto;
+}
+
+.App-header h1 {
+  color: darkred;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.App-header h2 {
+  background-color: darkred;
+  height: 50px;
+  width: 50%;
+  display: block;
+  margin-top: 0px;
+  margin-left: 50px
+}
+
+.App-body {
+  margin-bottom: 0px; /* Added space between App-body and App-footer */
+}
+
+.App-footer {
+  padding-top: 0px; /* Increased space between App-body and App-footer */
+}
+
+.App-footer p {
+  font-style: italic; /* Make footer text italic */
+}

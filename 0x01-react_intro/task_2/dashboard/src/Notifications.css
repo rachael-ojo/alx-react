@@ -1,0 +1,22 @@
+li[data-priority]::after {
+  content: "";
+  background-image: url('C:\Users\Dell\Desktop\Image\close-icon.png');
+  background-size: 14px 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  padding: 5px;
+  transition: color 0.3s ease;
+  width: 14px;
+  height: 13px;
+}
+
+/* Change color on hover */
+li[data-priority]::after:hover {
+  filter: grayscale(50%);
+}
