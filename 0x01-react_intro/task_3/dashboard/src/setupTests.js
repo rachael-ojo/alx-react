@@ -3,13 +3,7 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
-import React from 'react';
-import { shallow } from 'enzyme';
-import MyComponent from './MyComponent';
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
-describe('MyComponent', () => {
-  it('renders correctly', () => {
-    const wrapper = shallow(<MyComponent />);
-    expect(wrapper).toMatchSnapshot();
-  });
-});
+configure({ adapter: new Adapter() });
