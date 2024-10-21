@@ -1,13 +1,13 @@
 import { Seq } from 'immutable';
 
-// Define the function first to avoid "use before define" errors
+// Function to capitalize the first letter of a string
 const capitalizeFirstLetter = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
 // Main function that uses Seq
 const processSeq = (input) => {
-  // Use parentheses around the arrow function argument
-  return Seq(input).map((item) => capitalizeFirstLetter(item));
+  // Directly return the mapped value without block statement
+  return Seq(input).map(item => capitalizeFirstLetter(item));
 };
 
-// Use default export as the file has a single export
+// Default export of the main function
 export default processSeq;
