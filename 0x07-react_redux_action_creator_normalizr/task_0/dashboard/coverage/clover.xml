@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1730406616607" clover="3.2.0">
+  <project timestamp="1730406616607" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3" elements="13" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="notifications.js" path="C:\Users\Dell\Desktop\alx-react\0x07-react_redux_action_creator_normalizr\task_0\dashboard\src\schema\notifications.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
